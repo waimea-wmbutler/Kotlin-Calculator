@@ -10,9 +10,10 @@ fun main () {
         break
     }
 
-    val num1 = getInt(prompt = "Enter Your Name: ")
-    val num2 = getInt(prompt = "Enter Your Name: ")
-
+    val num1 = getInt(prompt = "Enter Your First Number ")
+    val num2 = getInt(prompt = "Enter Your Operator: (+, -, *, /): ")
+    val num1 = getInt(prompt = "Enter Your Second Number ")
+    
 }
 fun getString ( prompt: String): String {
     var userInput: String
